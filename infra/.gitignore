@@ -1,0 +1,23 @@
+# Terraform folders
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Variable files (contain secrets)
+*.tfvars
+
+# Crash logs
+crash.log
+
+# Terraform plan files
+*.tfplan
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+# OS files
+.DS_Store
+Thumbs.db
